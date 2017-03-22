@@ -1,0 +1,46 @@
+{
+    "global": {
+        "ignore": [
+            "node_modules/**",
+            "bower_components/**",
+            "src/sass/bootstrap-sass/**",
+            "jspm_packages/**",
+            ".npm/**",
+            "vendor/**",
+
+            "lib-cov/**",
+            "coverage/**",
+            ".nyc_output/**",
+
+            "**/*.min.js",
+            "**/*.min.css"
+        ]
+    },
+    "jslint": {
+        "files": [
+            "src/**/*.js",
+            "src/**/*.json",
+            "src/**/.*.json"
+        ],
+        "ignore": [],
+        "rcFile": ".jslintrc"
+    },
+
+    "jshint": {
+        "files": [
+            "src/**/*.js",
+            "src/**/*.json",
+            "src/**/.*.json"
+        ],
+        "ignore": [],
+        "rcFile": ".jshintrc"
+    },
+
+    "eslint": {
+        "files": [
+            "src/**/*.js"
+        ],
+        "ignore": [],
+        "rcFile": ".eslintrc"
+    }
+}
